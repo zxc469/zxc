@@ -1,0 +1,78 @@
+# ==================== Python ====================
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# ==================== Node.js / TypeScript ====================
+node_modules/
+dist/
+*.tsbuildinfo
+
+# ==================== Environment & Secrets ====================
+.env
+.env.*
+!.env.example
+
+# ==================== IDE & Editor ====================
+.idea/
+.vscode/
+.trae/
+*.swp
+*.swo
+*~
+
+# ==================== OS Files ====================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==================== Testing & Coverage ====================
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# ==================== Logs ====================
+*.log
+logs/
+
+# ==================== Claude / AI Assistant ====================
+.claude/
+
+# ==================== RAG Models ====================
+models/
+
+# ==================== Project-specific ====================
+# 设计文档 (design docs)
+project-overview.md
+CLAUDE.md
+面试项目文档.md
+项目简历素材库.md
+MESSAGE_LAYOUT_IMPLEMENTATION.md
+SESSION_MANAGEMENT_IMPLEMENTATION.md
+
+# 文档目录
+docs/
+
+# QA 测试脚本
+qa/
+
+# MCP 服务端脚本
+mcp_servers/
+
+# 资源文件
+resources/
+
+# 数据库迁移文件 (含敏感schema信息)
+migrations/
